@@ -15,10 +15,12 @@ console.log("My pet eats " + meals + " meals a day.");
 // 1. What is the pet's name?
 // The data type is ___.
 // const ___ = ___
+const name = "Otto"
 
 
 // 2. How old is the pet?
 // The data type is ___.
+const age = 13
 
 
 // 3. What type of animal is the pet?
@@ -27,12 +29,15 @@ console.log("My pet eats " + meals + " meals a day.");
 
 // 4. Is the pet female?
 // The data type is ___.
+const gender = "female"
+console.log(gender + " is a " + typeof("female"))
 
 
 // 5. Approximately how much do you think the pet weighs?
 // The data type is ___.
 
-
+const weight = 23.2
+console.log(23.2 + " is a " + typeof(weight))
 
 
 // You shouldn't need it often, but JavaScript has a neat built-in function called "typeof" which can tell you the data type stored in a variable.
